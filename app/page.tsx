@@ -15,12 +15,12 @@ const HomePage = () => {
       </p>
 
       <div className="flex flex-col md:flex-row gap-4 justify-center animate-slide">
-        <Button variant="link">
+        <Button>
           <Link href="/tickets/new" className=" px-6 py-3 rounded shadow">
             Submit a Ticket
           </Link>
         </Button>
-        <Button variant="link">
+        <Button>
           <Link href="/tickets" className=" px-6 py-3 rounded shadow ">
             View Tickets
           </Link>
